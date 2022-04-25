@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.hero{
+    height:400px;
+    background:#1F2937;
+    
+}
+.logo h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 14px;
+}
+.logo h1 span{
+    color:#3882F6;
+}
+.navbar{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding:16px
+    
+   
+
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+.navbar nav ul li a:hover{
+    color: #3882F6;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.welcome {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.welcome .welcome-message {
+      color: #F9FAF8;
+      font-size: 48px;
+
+}
+.welcome .welcome-message p{
+    font-size: 18px;
+}
+.welcome .welcome-message  button{
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.latest-Books{
+    height: 500px;
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top:20px;
+    padding-bottom: 60px;
+    
+}
+.item{
+    display: block;
+   
+}
+.title{
+    margin-left: 550px;
+    margin-top: 40px;
+    
+}
+.title h3{
+    font-size: 24px;
+}
+.quotes {
+    height: 500px;
+    background: #E5E7EB;
+    
+}
+.myquote {
+    align-content: center;
+    justify-content: center;
+    padding-left:350px;
+    margin: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+.callAction{
+    height: 300px;
+
+}
+.callAction .actionInfo{
+       background: #3882F6;
+       width: 700px;
+       display: flex;
+       flex-direction: row;
+       align-content: center;
+       justify-content: center;
+       padding:50px;
+       margin-top: 60px;
+       margin-left:300px;
+       gap: 10px;
+       color: whitesmoke;
+}
+.callAction .actionInfo button{
+    background: #3882F6;
+    border: 1px #F9FAF8 solid;
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: whitesmoke;
+}
+.footer{
+    height: 50px;
+    background:#375074;
+    align-content: center;
+       justify-content: center;
+       color: whitesmoke;
+
+}
+.footer p{
+    margin-left: 600px;
+    padding-top: 10px;
+}
